@@ -9,9 +9,9 @@
 --------------
 Uniform cost search is the general version of breadth-first search where only the cost of each node is considered with the heuristic function h(n) evaluating to 0 at every node. For the 15 Puzzle game, since each operation takes an atomic step, the weight of every edge in the game tree is always 1. In this case, uniform cost search simply equals breadth-first search. In our program, in order to make all algorithms as general as possible, we implemented uniform cost search simply.
 
-**Iterative deepening DFS**
+**Iterative lengthening DFS**
 -------------------------------
-The iterative deepening algorithm has the advantage to combine the time complexity of DFS and the minimal property of the solution. It uses a DFS algorithm with a limited depth search. The limit is incremented until a solution is found.
+The iterative lengthening algorithm has the advantage to combine the time complexity of DFS and the minimal property of the solution. It uses a DFS algorithm with a limited lengthening search. The limit is incremented until a solution is found.
 
 **A***
 ---------------
