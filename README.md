@@ -14,3 +14,15 @@ The iterative deepening algorithm has the advantage to combine the time complexi
 ---------------
 The A* algorithm has given the best results so far. The heuristic used is the sum of each Manhattan distance between a tile's position to the position it should be. The heuristic is admissible and therefore, provides the shortest sequence of actions.
 
+
+**Bonus**
+------------
+
+# h3 Heuristic
+---------------
+We proposed a new h3 heuristic. Unlike Manhattan distance heuristic, h3 first considers all
+possible diagonal movements and remaining vertical/horizontal movements later. This
+function provides a higher value estimated cost which still does not exceed the real cost.
+While this heuristic is still not better than h2 in few random generated inputs in different
+depths, we observed it is better than the h1 and h2 overall. Especially in larger depth
+solutions.
