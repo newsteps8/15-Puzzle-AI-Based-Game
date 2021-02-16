@@ -28,4 +28,4 @@ depths, we observed it is better than the h1 and h2 overall. Especially in large
 solutions.
 
 # Performance Comparison
-![alt text](https://github.com/newsteps8/ConnectFour-AI-Based-Game/blob/main/minimaxtree.png)
+![alt text](https://github.com/newsteps8/15-Puzzle-AI-Based-Game/blob/main/Screenshot%202021-02-16%20211529.png)
