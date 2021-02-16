@@ -1,5 +1,8 @@
 # 15-Puzzle-AI-Based-Game
 
+![alt text](https://github.com/newsteps8/15-Puzzle-AI-Based-Game/blob/main/15puzzle.gif)
+
+
 ## Solver Algorithms
 
 **UCS**
@@ -19,7 +22,7 @@ The A* algorithm has given the best results so far. The heuristic used is the su
 ------------
 
 # h3 Heuristic
----------------
+-----------------
 We proposed a new h3 heuristic. Unlike Manhattan distance heuristic, h3 first considers all
 possible diagonal movements and remaining vertical/horizontal movements later. This
 function provides a higher value estimated cost which still does not exceed the real cost.
