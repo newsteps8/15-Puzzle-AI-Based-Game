@@ -26,3 +26,6 @@ function provides a higher value estimated cost which still does not exceed the 
 While this heuristic is still not better than h2 in few random generated inputs in different
 depths, we observed it is better than the h1 and h2 overall. Especially in larger depth
 solutions.
+
+# Performance Comparison
+![alt text](https://github.com/newsteps8/ConnectFour-AI-Based-Game/blob/main/minimaxtree.png)
